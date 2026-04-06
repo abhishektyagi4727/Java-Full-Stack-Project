@@ -13,7 +13,7 @@ const api = axios.create({
   timeout: 10000,
 });
 
-// Add token to requests
+// Add token to requestsgit
 api.interceptors.request.use(
   (config) => {
     const token = localStorage.getItem("token");
