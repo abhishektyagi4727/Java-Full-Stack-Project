@@ -3,8 +3,7 @@ import axios from "axios";
 
 // Change this to your Spring Boot API URL
 const API_BASE_URL =
-  "https://food-delivery-backend-pn4c.onrender.com/api" ||
-  "http://localhost:8080/api";
+  process.env.REACT_APP_API_URL || "http://localhost:8080/api";
 
 const api = axios.create({
   baseURL: API_BASE_URL,
