@@ -1,0 +1,9 @@
+{/* Register Page */}
+        <Route path="/register" element={<Register />} />
+
+        {/* Admin Dashboard */}
+        <Route path="/admin/dashboard" element={<AdminDashboard />} />
+
+        phele ye>>
+        >>import Register from "./pages/Register";
+import AdminDashboard from "./pages/AdminDashboard";
