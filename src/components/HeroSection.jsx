@@ -36,6 +36,7 @@ function HeroSection() {
         <div className="mt-4">
           <button
             className="btn btn-danger btn-lg me-3 px-4"
+            onClick={() => navigate("/Login")}
             style={{
               borderRadius: "50px",
               fontWeight: "bold",
