@@ -1,4 +1,6 @@
+import { useNavigate } from "react-router-dom";
 function HeroSection() {
+  const navigate = useNavigate();
   return (
     <section
       className="hero-section text-center text-white"
