@@ -13,7 +13,7 @@ function ProductCard() {
   useEffect(() => {
     // Spring Boot API endpoint
     axios
-      .get("http://localhost:8080/api/products")
+      .get("https://food-delivery-backend-pn4c.onrender.com/api/products")
       .then((res) => {
         // Handle Spring Boot response format
         if (res.data && res.data.success) {
